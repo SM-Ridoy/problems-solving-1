@@ -45,16 +45,3 @@ console.log(reverse(text)); */
 const allFriends = ["alamin hossen", "abul ahmed", "babul", "kabul", "hamid"];
 const friendsName = perfectFriend(allFriends);
 console.log(friendsName); */
-
-let num = [12, 344, 67, 8, 98, 12, 13, 34, 56, 78, 900, 11];
-
-function matchNum(num) {
-    for (let i = 0; i < num.length; i++) {
-        element = num[i];
-        if (Number(element) === Number(13)) {
-            break;
-        }
-    }
-    return element;
-}
-console.log(matchNum(num));
